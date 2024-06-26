@@ -1,15 +1,17 @@
+import React from "react";
 import { View, Text, SafeAreaView } from "react-native";
-import AppBar from "../components/AppBar";
 
-const HomeScreen = () => {
+type Props = {};
+
+const ProfileScreen = (props: Props) => {
   return (
     <SafeAreaView>
       {/* <AppBar /> */}
       <View>
-        <Text>HoomeScreen</Text>
+        <Text>Profile</Text>
       </View>
     </SafeAreaView>
   );
 };
 
-export default HomeScreen;
+export default ProfileScreen;
